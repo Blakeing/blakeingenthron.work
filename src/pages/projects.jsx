@@ -8,42 +8,55 @@ import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoHayn from '@/images/logos/hayn.svg'
+import logonNextier from '@/images/logos/nextier.png'
+import logoCoobo from '@/images/logos/coobo.png'
+import logoWolfPack from '@/images/logos/wolfpack.png'
+import logoFlexifloat from '@/images/logos/flexifloat.png'
+import logoClvelandKrist from '@/images/logos/cleveland-krist.png'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Hayn Enterprises',
     description:
       'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+    link: { href: 'https://hayn.wpengine.com/', label: 'hayn.wpengine.com' },
+    logo: logoHayn,
   },
   {
-    name: 'Animaginary',
+    name: 'Next',
     description:
       'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+    link: { href: 'https://nextierofs.com/', label: 'nextierofs.com' },
+    logo: logonNextier,
   },
   {
-    name: 'HelioStream',
+    name: 'Coobo Media',
     description:
       'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+    link: { href: 'https://coobomedia.com/', label: 'coobomedia.com' },
+    logo: logoCoobo,
   },
   {
-    name: 'cosmOS',
+    name: 'WolfPack Rentals',
     description:
       'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+    link: { href: 'https://wolfpackind.com/', label: 'wolfpackind.com' },
+    logo: logoWolfPack,
   },
   {
-    name: 'OpenShuttle',
+    name: 'Flexifloat',
     description:
       'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+    link: { href: 'https://flexifloat.com/', label: 'flexifloat.com' },
+    logo: logoFlexifloat,
+  },
+  {
+    name: 'Cleveland Krist',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://clevelandkrist.com/', label: 'clevelandkrist.com' },
+    logo: logoClvelandKrist,
   },
 ]
 
@@ -62,11 +75,11 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projects - Blake Ingenthron</title>
         <meta name="description" content="Things I’ve made." />
       </Head>
       <SimpleLayout
-        title="Things I’ve made."
+        title="Recent Projects"
         intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
       >
         <ul
@@ -87,7 +100,7 @@ export default function Projects() {
                 <Card.Link href={project.link.href}>{project.name}</Card.Link>
               </h2>
               <Card.Description>{project.description}</Card.Description>
-              <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
+              <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-violet-500 dark:text-zinc-200">
                 <LinkIcon className="h-6 w-6 flex-none" />
                 <span className="ml-2">{project.link.label}</span>
               </p>
