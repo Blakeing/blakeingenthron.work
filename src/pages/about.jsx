@@ -61,7 +61,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I'm Blake, a web developer who loves making engaging and
+              I&apos;m Blake, a web developer who loves making engaging and
               user-friendly websites.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
@@ -80,14 +80,15 @@ export default function About() {
               <p>
                 On weekends, I spend my time on the field, playing baseball in a
                 recreational league, enjoying the camaraderie and physical
-                activity away from the desk. When I'm not playing, I'm out
-                socializing and unwinding with friends or my close-knit big
+                activity away from the desk. When I&apos;m not playing, I&apos;m
+                out socializing and unwinding with friends or my close-knit big
                 Italian family!
               </p>
               <p>
-                If you're looking for a dedicated professional who can transform
-                your web ideas into reality, feel free to get in touch. Let's
-                collaborate and create something amazing together!
+                If you&apos;re looking for a dedicated professional who can
+                transform your web ideas into reality, feel free to get in
+                touch. Let&apos;s collaborate and create something amazing
+                together!
               </p>
             </div>
           </div>
