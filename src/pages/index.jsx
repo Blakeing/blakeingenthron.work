@@ -243,24 +243,19 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>
-          Blake Ingenthron - Web Developer, founder, and amateur astronaut
-        </title>
+        <title>Home - Blake Ingenthron</title>
         <meta
           name="description"
-          content="I’m Blake, a software designer and entrepreneur based in Houston. I’m a web developer at Coobo Media, where we develop technologies that empower regular people to explore space on their own terms."
+          content="A web developer who loves making engaging and user-friendly websites."
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Web Developer, founder, and amateur astronaut.
+            Blake Ingenthron's Portfolio
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            Check out my recent projects and learn more about me!
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

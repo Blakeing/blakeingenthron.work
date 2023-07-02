@@ -26,9 +26,8 @@ export function Footer() {
                 {/* <NavLink href="/speaking">Speaking</NavLink>
                 <NavLink href="/uses">Uses</NavLink> */}
               </div>
-              <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Blake Ingenthron. All rights
-                reserved.
+              <p className="text-sm text-zinc-500 dark:text-zinc-400">
+                &copy; {new Date().getFullYear()} All rights reserved.
               </p>
             </div>
           </Container.Inner>

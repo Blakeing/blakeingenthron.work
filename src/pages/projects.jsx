@@ -24,19 +24,13 @@ const projects = [
     logo: logoHayn,
   },
   {
-    name: 'Next',
+    name: 'Nextier Oilfield Solutions',
     description:
       'High performance web animation library, hand-written in optimized WASM.',
     link: { href: 'https://nextierofs.com/', label: 'nextierofs.com' },
     logo: logonNextier,
   },
-  {
-    name: 'Coobo Media',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: 'https://coobomedia.com/', label: 'coobomedia.com' },
-    logo: logoCoobo,
-  },
+
   {
     name: 'WolfPack Rentals',
     description:
@@ -58,6 +52,13 @@ const projects = [
     link: { href: 'https://clevelandkrist.com/', label: 'clevelandkrist.com' },
     logo: logoClvelandKrist,
   },
+  {
+    name: 'Coobo Media',
+    description:
+      'Real-time video streaming library, optimized for interstellar transmission.',
+    link: { href: 'https://coobomedia.com/', label: 'coobomedia.com' },
+    logo: logoCoobo,
+  },
 ]
 
 function LinkIcon(props) {
@@ -76,11 +77,14 @@ export default function Projects() {
     <>
       <Head>
         <title>Projects - Blake Ingenthron</title>
-        <meta name="description" content="Things I’ve made." />
+        <meta
+          name="description"
+          content="I’ve worked on tons of projects over the years but these are some of the most recent."
+        />
       </Head>
       <SimpleLayout
         title="Recent Projects"
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        intro="I’ve worked on tons of projects over the years but these are some of the most recent."
       >
         <ul
           role="list"
